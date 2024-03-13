@@ -12,12 +12,14 @@ Exercício de Concatenação de Strings: Declare duas variáveis, nome e sobreno
 Exercício de Troca de Tipos: Crie duas variáveis com os valores "50" e "25" (não esqueça das aspas!). Agora, tente fazer a soma com as duas. O que acontece? O que fazer para que a soma resulte em 75?
 */
 
+//1
 let numero1 = 60;
 let numero2 = 35;
 const soma = numero1 + numero2;
 
 console.log(soma);
 
+//2
 const nota1 = 10;
 const nota2 = 9;
 const nota3 = 8;
@@ -29,7 +31,27 @@ const divisao = soma1 / numero3;
 console.log(soma1);
 console.log(divisao);
 
-
+//3
 const C = 30;
 const F = C * 9/5 + 32;
 console.log(F);
+
+//4
+const base = 4;
+const altura = 4;
+const area = base * altura;
+
+console.log(area);
+
+//5
+const nome = 'Amanda ';
+const sobrenome = 'Rothmann';
+const nomeCompleto = nome + sobrenome;
+
+console.log(nomeCompleto);
+
+//6
+const numero4 = '50';
+const numero5 = '25';
+
+console.log(Number(numero4) + Number(numero5));
