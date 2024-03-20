@@ -6,14 +6,22 @@ if (idade >= 18) {
     console.log('Não pode dirigir')
 }
 
-let turno = 'Manhã';
-let turno2 = 'Tarde';
-let turno3 = 'Noite';
-
-if (turno) {
+let turno = "manha";
+if (turno === "manha") {
     console.log('Bom dia')
-} else if (turno2){
-    console.log('Boa tarde')
+} else if (turno === "tarde"){
+    console.log('Boa tarde');
+} else if (turno === "noite") {
+    console.log('Boa noite');
 } else {
-    console.log('Boa noite')
+    console.log("Turno não encontrado");
+}
+
+const generoFilme = "Fantasia";
+let valorFilme = 14;
+
+if (generoFilme === "Fantasia" && valorFilme < 15) {
+    console.log("Bom filme");
+} else {
+    console.log("Escolha outro");
 }
