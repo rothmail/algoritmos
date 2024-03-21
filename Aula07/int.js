@@ -49,7 +49,7 @@
     b) Qual será a mensagem impressa no console, se o valor de fruta for `"Maçã"`?
     Maçã 2.25
     c) Considere que um usuário queira comprar uma `Pêra`, qual seria a mensagem impressa no console se retirássemos o `break` que está logo acima do `default` (o `break` indicado pelo comentário "BREAK PARA O ITEM c.")?
-    nn sei
+    O código iria continuar sendo executado até que o próximo break fosse encontrado
     3. Leia o código abaixo:
     
     ```jsx
@@ -63,9 +63,8 @@
     }
     
 /*    ```
-    
     a) O que a primeira linha está fazendo?
-    Tornando a string "50" um Number
+    Tornando a string "50" um Number e declarando uma variável
     b) Considere um usuário digitou o número 10. Qual será a mensagem do terminal? E se fosse o número -10?
     10 = "Esse número passou no teste"
     -10 = Não vai aparecer nada
