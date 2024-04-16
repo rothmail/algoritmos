@@ -1,15 +1,12 @@
 const readlineSync = require('readline-sync');
-
-let soma = 0;
-
-pergunta = Number(readlineSync.question('Numero: \n'));
-pergunta2 = Number(readlineSync.question('Numero: \n'));
-pergunta3 = Number(readlineSync.question('Numero: \n'));
-pergunta4 = Number(readlineSync.question('Numero: \n'));
-pergunta5 = Number(readlineSync.question('Numero: \n'));
-
-for (let media; media >= 0; media++) {
-    soma += pergunta + pergunta2 + pergunta3 + pergunta4 + pergunta5;
-    media = soma / 5;
-    console.log(media);
+pergunta = Number(readlineSync.question('Numero: '));
+pergunta2 = Number(readlineSync.question('Numero: '));
+pergunta3 = Number(readlineSync.question('Numero: '));
+pergunta4 = Number(readlineSync.question('Numero: '));
+pergunta5 = Number(readlineSync.question('Numero: '));
+let soma = 0
+for (let media = 0; media <= 10 ; media++) {
+    soma = pergunta + pergunta2 + pergunta3 + pergunta4 + pergunta5 
+    media = soma / 5
+     console.log(media);
 }
