@@ -1,0 +1,26 @@
+Bem-vindo à Academia Ninja! Você está prestes a embarcar em uma jornada no mundo de Naruto, onde três aspirantes a ninja - Naruto, Sasuke e Sakura - treinam arduamente para se tornarem verdadeiros shinobi. Sua missão é criar um programa em JavaScript que simule essa jornada, onde os aspirantes completam desafios, aprimoram suas habilidades e competem para se tornarem o ninja mais habilidoso da academia.
+
+O programa deve incluir os seguintes componentes:
+
+
+Função para Criar um Novo Aspirante: Crie uma função criarPersonagem que permita criar um novo aspirante a ninja no terminal e adicionar esse personagem ao array de aspirantes. Cada objeto deve ter as seguintes propriedades: nome, nível de chakra, habilidades ninjas (um array) e missões concluídas (um número inicialmente definido como 0).
+
+Treinamento de Chakra: Crie uma função que permita aos aspirantes a ninja treinar seu chakra. Esta função deve aumentar o nível de chakra de um aspirante em um valor aleatório entre 10 e 20.
+
+Adição de Habilidades Ninja: Crie uma função que permita aos aspirantes a ninja adicionar novas habilidades ninja ao seu arsenal. Eles devem ser capazes de adicionar habilidades ninja (strings) ao array de habilidades.
+
+Conclusão de Missões Ninja: Simule a conclusão de missões ninja. Crie uma função que permita aos aspirantes a ninja concluir missões com sucesso. Isso deve aumentar o número de missões concluídas em 1 e recompensar com um aumento aleatório de chakra entre 5 e 15.
+
+Exibição de Progresso: Exiba o progresso de cada aspirante a ninja após cada ação, mostrando seu nome, nível de chakra, habilidades ninjas e missões concluídas.
+
+Determinação do Ninja Mais Habilidoso: Quando selecionar esta opção no menu, determine qual dos três aspirantes a ninja se tornou o ninja mais habilidoso, com base no nível total de chakra e habilidades ninjas. Exiba o nome do vencedor.
+
+Exemplo do menu:
+Escolha uma ação:
+1. Criar um novo aspirante a ninja
+2. Treinar Chakra
+3. Adicionar Habilidade Ninja
+4. Concluir Missão Ninja
+5. Exibir Progresso de um Aspirante
+6. Determinar o Ninja Mais Habilidoso
+7. Sair
