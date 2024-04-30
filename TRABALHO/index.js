@@ -59,7 +59,7 @@ function adicionarPersonagem () {
 }
 
 function treinarChakra(ninja){
-   let descobrir = Number(readlineSync.question('qual personagem você quer acessar para treinar o chakra: '));
+    let descobrir = Number(readlineSync.question('qual personagem você quer acessar para treinar o chakra: '));
     let aumentarChakra = Math.floor(Math.random() * (20 - 10 + 1)) + 10;
     ninja[descobrir].chakra += aumentarChakra;
     console.log(${ninja[descobrir].nome} treinou seu chakra e aumentou seu nível em: ${ninja[descobrir].chakra})
@@ -67,7 +67,7 @@ function treinarChakra(ninja){
 }
 
 function adicionarHabilidades(ninja){
-     let descobrir = Number(readlineSync.question('Qual personagem você quer adicionar uma habilidade: '));
+    let descobrir = Number(readlineSync.question('Qual personagem você quer adicionar uma habilidade: '));
     let novaHabilidade = readlineSync.question('Adicione uma nova habilidade ao personagem: ');
     ninja[descobrir].habilidades.push(novaHabilidade);
     console.log(Foi adicionado ao ${ninja[descobrir].nome} a habilidade: ${novaHabilidade})
